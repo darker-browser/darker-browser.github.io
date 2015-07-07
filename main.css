@@ -18,6 +18,8 @@ main {
   color: #EEE;
   border-bottom: 2px ridge white;
   padding: 20px;
+  position: relative;
+  text-align: center;
 }
 
 #preview-top {
@@ -25,7 +27,8 @@ main {
   max-height: 400px;
   min-height: 600px;
   width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -20px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  position: absolute;
+  bottom: 0;
 }
